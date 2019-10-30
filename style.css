@@ -1,0 +1,289 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+body {
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-card {
+    padding: 40px;
+    width: 400px;
+    background-color: #F7F7F7;
+    margin: 5% auto 10px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+}
+
+.login-card h1 {
+    font-weight: 100;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.login-card h3 {
+    font-weight: 60;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.login-card input[type=submit] {
+    float: right;
+    width: 30%;
+    display: block;
+    margin-top: 20px;
+}
+
+.login-card input[type=text],
+input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.login-card input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login-card1 {
+    float: right;
+    padding: 40px;
+    width: 400px;
+    background-color: #F7F7F7;
+    margin: 5% auto 10px;
+    margin-right: 20%;
+    border-radius: 7px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+}
+
+.login-card1 h1 {
+    font-weight: 100;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.login-card1 h3 {
+    font-weight: 60;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.login-card1 input[type=submit] {
+    float: right;
+    width: 30%;
+    display: block;
+    margin-top: 20px;
+}
+
+.login-card1 input[type=text],
+input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.login-card1 input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login-card2 {
+    float: left;
+    padding: 40px;
+    width: 400px;
+    background-color: #F7F7F7;
+    margin: 5% auto 10px;
+    margin-left: 20%;
+    border-radius: 7px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+}
+
+.login-card2 h1 {
+    font-weight: 100;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.login-card2 h3 {
+    font-weight: 60;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.login-card2 input[type=submit] {
+    float: right;
+    width: 30%;
+    display: block;
+    margin-top: 20px;
+}
+
+.login-card2 input[type=text],
+input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.login-card2 input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.login1 {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 36px;
+    padding: 0 8px;
+    /* border-radius: 3px; */
+    /* -webkit-user-select: none;
+user-select: none; */
+}
+
+select {
+    text-align: center;
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+}
+
+.login-submit {
+    /* border: 1px solid #3079ed; */
+    border: 10px;
+    color: #fff;
+    padding: 10px;
+
+    margin-top: 40%;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    background-color: #4d90fe;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+    /* border: 1px solid #2f5bb7; */
+    border: 0px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    background-color: #357ae8;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+    opacity: 1;
+}
+
+.login-help {
+    width: 100%;
+    margin: 40px 0 0 -140px;
+    font-size: 12px;
+}
+
+#clear {
+    clear: both;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 0;
+    margin-left: 19.5%;
+    padding-top: 11px;
+    border-radius: 30px;
+    background-color: #f7f7f7;
+    height: 50px;
+    width: 60%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin-left: 50px;
+    display: inline;
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+}
+
+.ulClass {
+    margin-top: 9px;
+}
+
+.ulClass li:hover {
+    background-color: #4d90fe;
+    border-radius: 30px;
+}
+
+#ss {
+    margin-left: 10%;
+}
+
+#pdf{
+    color: black;
+    text-align: center;
+    margin-left: 20%;
+}
